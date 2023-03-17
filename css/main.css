@@ -111,7 +111,9 @@ body {
 .wrapper {
   /*add display:flex and set justify-content to space-between*/
   display: flex;
+  flex-flow: row wrap;
   justify-content: space-between;
+  align-items: center;
   font-weight: 700;
 }
 
@@ -121,10 +123,13 @@ body {
   justify-content: center;
   align-items: center;
   width: 30%;
-  color: #fff;
+  color: salmon;
   line-height: 1.5em;
   font-size: 1.6em;
-  background-color: #f16059;
+  text-align: center;
+  background-color: #59f1b7;
+  border-right: 5px double #921ab7;
+  border-left: 5px double #921ab7;
   height: 300px;
 }
 
